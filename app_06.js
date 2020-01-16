@@ -14,8 +14,12 @@ const server=http.createServer((req, res)=>{
         res.write(`
         <html>
         <head><title>MemoAppi</title></head>
-        <body>
-         <form action="add-note" method="POST">
+        <body>`);
+                notes.forEach((value, index) => {
+                        res.write(`<div>${value}, index: ${index}</div>`);
+                });
+
+        res.write(`<form action="add-note" method="POST">
                 <input type="text" name="note">
                 <button type="submit">Add note</button>
                 </form>
