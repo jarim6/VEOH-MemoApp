@@ -4,6 +4,9 @@
     text-align: center;
     color: white;
     border: none;
+    font-size: 16px;
+    margin: 5px;
+
 }
 
 .add_button{
@@ -12,6 +15,9 @@
     text-align: center;
     color: white;
     border: none;
+    font-size: 16px;
+    margin: 5px;
+    
 }
 
 form{

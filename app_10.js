@@ -29,7 +29,7 @@ const server=http.createServer((req, res)=>{
 
                 notes.forEach((value, index) => {
                         res.write(`
-                        <div>${value}, index: ${index}, 
+                        <div>${value} 
                         <form action="del-note" method="POST">
                         <input type="hidden" name="index", value="${index}">
                         <button type="submit" class="delete_button">Delete</button>
