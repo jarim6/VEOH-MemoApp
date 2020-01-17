@@ -1,4 +1,4 @@
-//tehtävä 7 lisätään nappi jolla voidaan poistaa 
+//tehtävä 7-10 lisätään nappi jolla voidaan poistaa 
 
 /******************************************************
 Jatkotehtävä:
